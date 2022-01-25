@@ -19,6 +19,9 @@ namespace OpenApiInterpreter
 
             if (openApiIntf.HasErrors)
             {
+
+
+
                 Console.WriteLine("Found errors: ");
                 foreach (var error in openApiIntf.Errors)
                 {
